@@ -1,28 +1,23 @@
-# Dice 🎲
+# dice
 
-## Our Goal
+## Expanded
+Must be a descendant of a Row, Column or Flex, Expanded makes its child expand to fill the available space in the main axis.
 
-The objective of this tutorial is to introduce you to the core programming concepts that will form the foundation of most of the apps you’ll build in the future. This app will teach you how to make apps with functionality using setState() inside Stateful Flutter widgets.
+## FlatButton
+This widget cames with a 15.0 padding by default
 
+## dart data types
+Dart is a Statically Typed Language, a variable data type can not be changed, but the variable value can.
 
-## What you will create
+- String: inside ' '
+- int: numbers, positive or nombers
+- double: numbers with a decimal point
+- bool: hold onlye one of these 2 values **true** or **false**
+- dynamic: a variable without a fixed data type.
 
-We’re going to make a Las Vegas dice app. You can make the die roll at the press of a button. With this app in your pocket, you’ll be able to settle any score on the go!
+## Stateful
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/dicee-demo.gif)
+Used when the app changes its state, when we want to update the screen.
+Hot Reload?
 
-## What you will learn
-
-- How to use Flutter stateless widgets to design the user interface.
-- How to use Flutter stateful widgets to update the user interface.
-- How to change the properties of various widgets.
-- How to use onPressed listeners to detect when buttons are pressed.
-- How to use setState to mark the widget tree as dirty and requiring update on the next render.
-- How to use Expanded to make widgets adapt to screen dimensions.
-- Understand and use string interpolation.
-- Learn about basic dart programming concepts such as data types and functions.
-- Code and use gesture controls.
-
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+The element marked as #dirty will be cleaned (updated)
