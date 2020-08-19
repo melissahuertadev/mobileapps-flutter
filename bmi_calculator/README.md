@@ -1,16 +1,28 @@
 # bmi_calculator
 
-A new Flutter project.
+## resources:
+https://dribbble.com
 
-## Getting Started
+## notes
+- instance variable = field = property
+- inmmutability = unchangable, stageless widgets
+    When Stateless widgets have a change while coding, they actually are replaced by a new updated widget,
+    all of its properties also can only be set once and then "it's kind of set in stone".
+    The reason why they need "final" keyword is because a property can be set by a second time and that's not allowed
+    in a Stateless widget.
 
-This project is a starting point for a Flutter application.
+- enum: allows to have more values/options as the boolean type but with more!
+   ```enum EnumName {typeA, typeB, typeC}```
+   ```EnumName.typeA```
 
-A few resources to get you started if this is your first Flutter project:
+- Dart Ternary Operator
+    Condition ? DoThisIfIsTrue : DoThisIfIsFalse
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- First Order Objects: It takes a function as an argument and/or returns a function as a result.
+   (read more) https://buildflutter.com/functional-programming-with-flutter/
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Maps: collections of key and values
+    ```Map<KeyType, Valuetype> mapName{
+        Key: Value
+    }```
+    ```mapName[key]```
