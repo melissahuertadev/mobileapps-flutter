@@ -2,15 +2,29 @@
 
 A new Flutter project.
 
-## Getting Started
+## Geolocator
 
-This project is a starting point for a Flutter application.
+https://pub.dev/packages/geolocator
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Await and Async
+- Used when there are process that can take more time and other functions depend on them to finish to start.
+- A future: is something that doesn't exist right now, like a "promise", that you will get in the future.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## try catch
+
+``` try {
+    //do something that might fail
+    }
+    catch (e) {
+    //catch exceptions that occured
+    }
+```
+
+
+Null aware operator ```bsomeVariable ?? defaultValue ```
+
+
+https://openweathermap.org/api
+
+https://pub.dev/packages/flutter_spinkit

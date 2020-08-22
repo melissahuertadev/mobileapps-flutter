@@ -12,8 +12,10 @@ https://dribbble.com
     in a Stateless widget.
 
 - enum: allows to have more values/options as the boolean type but with more!
-   ```enum EnumName {typeA, typeB, typeC}```
-   ```EnumName.typeA```
+   ```
+      enum EnumName {typeA, typeB, typeC}
+      EnumName.typeA
+    ```
 
 - Dart Ternary Operator
     Condition ? DoThisIfIsTrue : DoThisIfIsFalse
@@ -22,7 +24,10 @@ https://dribbble.com
    (read more) https://buildflutter.com/functional-programming-with-flutter/
 
 - Maps: collections of key and values
-    ```Map<KeyType, Valuetype> mapName{
+    ```
+    Map<KeyType, Valuetype> mapName{
         Key: Value
-    }```
-    ```mapName[key]```
+    }
+    mapName[key]
+
+    ```
