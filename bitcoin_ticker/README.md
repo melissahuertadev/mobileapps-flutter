@@ -32,3 +32,8 @@ void checkNumbers(List<int> myNumbers){
 
 }
 ```
+
+
+## API
+
+https://docs.coinapi.io/#exchange-rates
